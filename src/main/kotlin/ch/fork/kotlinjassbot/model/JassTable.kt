@@ -38,6 +38,7 @@ public class JassTable {
     fun canIGiveFirstCardOfStich(): Boolean = cardsOnTable.isEmpty()
 
     fun getAllowedCardsSorted(): List<JassCard> {
+        // todo this needs extension
         if (isNewStich())
             return myCards
 
