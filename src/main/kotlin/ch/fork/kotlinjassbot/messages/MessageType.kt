@@ -1,0 +1,27 @@
+package ch.fork.kotlinjassbot.messages
+
+/**
+ * Created by fork on 07.07.15.
+ */
+public enum class MessageType {
+    BROADCAST_TEAMS,
+    REQUEST_PLAYER_NAME,
+    CHOOSE_PLAYER_NAME,
+    DEAL_CARDS,
+    REQUEST_TRUMPF,
+    CHOOSE_TRUMPF,
+    REJECT_TRUMPF,
+    BROADCAST_TRUMPF,
+    REQUEST_CARD,
+    CHOOSE_CARD,
+    REJECT_CARD,
+    PLAYED_CARDS,
+    BROADCAST_STICH,
+    BROADCAST_GAME_FINISHED,
+    BROADCAST_WINNER_TEAM,
+    REQUEST_SESSION_CHOICE,
+    CHOOSE_SESSION,
+    BROADCAST_SESSION_JOINED,
+    BAD_MESSAGE
+
+}
